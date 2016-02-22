@@ -15,7 +15,9 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Custom CSS -->
-        <link href="css/grayscale.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/scrollbar.css" rel="stylesheet" type="text/css"/>
+        <link href="css/img-queries.css" rel="stylesheet" type="text/css"/>
 
         <!-- Custom Fonts -->
         <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -32,7 +34,7 @@
 
     </head>
 
-    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" class="scrollbar">
 
         <!-- Navigation -->
         <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -70,7 +72,7 @@
                 </div>
                 <!-- /.navbar-collapse -->
             </div>
-            
+
             <!-- Breadcrumb -->
             <div class="container">
                 <ol class="breadcrumb">
@@ -90,13 +92,17 @@
             <div class="banner">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-12 vertical-center">
-                            <ul class="list-inline banner-social-buttons">
+                        <div class="col-lg-6">
+                            <ul class="list-inline">
                                 <li>
-                                    <a class="btn btn-default btn-lg btn-menu transition" href="port-design.html"><span class="network-name">Design Work</span></a>
+                                    <a class="btn btn-default btn-lg btn-menu transition btn-img-portmenu" href="port-design.html"><span>Design Work</span></a>
                                 </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <ul class="list-inline">
                                 <li>
-                                    <a class="btn btn-default btn-lg btn-menu transition" href="port-code.html"><span class="network-name">Code Work</span></a>
+                                    <a class="btn btn-default btn-lg btn-menu transition btn-img-portmenu" href="port-code.html"><span>Code Work</span></a>
                                 </li>
                             </ul>
                         </div>
@@ -106,31 +112,43 @@
         </section>
         <!-- /.container -->
 
-    <!-- Footer 
-    <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; Your Website 2014</p>
-        </div>
-    </footer> -->
+        <!-- Footer -->
+        <footer>
+            <div class="container text-center info-txt">
+                <p> &copy; Jamila Lau 2016</p>
+                <ul class="list-inline">
+                    <li>
+                        <a href="https://github.com/j-lau" class=""><i class="fa fa-github fa-lg"></i></a>
+                    </li>
+                    <li>
+                        <a href="" class=""><i class="fa fa-linkedin fa-lg"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
 
-    <!-- jQuery -->
-    <script src="js/jquery-2.2.0.min.js" type="text/javascript"></script>
+        <!-- jQuery -->
+        <script src="js/jquery-2.2.0.min.js" type="text/javascript"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
+        <!-- Plugin JavaScript -->
+        <script src="js/jquery.easing.min.js"></script>
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+        <!-- Custom Theme JavaScript -->
+        <script src="js/grayscale.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
-    
-    <!-- Page Transition JS -->
-    <script src="js/page-trans.js" type="text/javascript"></script>
+        <!-- Page Transition JS -->
+        <script src="js/page-trans.js" type="text/javascript"></script>
 
-</body>
+        <!-- Random Hover JS -->
+        <script src="js/random-hover.js" type="text/javascript"></script>
+
+        <!-- Particle Background JS -->
+        <script src="http://vincentgarreau.com/particles.js/assets/_build/js/lib/particles.js"></script>
+        <script src="js/particle.js" type="text/javascript"></script>
+
+    </body>
 
 </html>

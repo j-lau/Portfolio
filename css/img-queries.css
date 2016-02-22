@@ -1,0 +1,71 @@
+/* index.html */
+.btn-img{
+    background: url("../images/buttonbg.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 600px;
+    width: 200px;
+}
+
+@media(max-width:1199px) {
+    .btn-img {
+        background: url("../images/buttonbg.png") no-repeat scroll 0 0 transparent;
+        cursor: pointer;
+        height: 150px;
+        width: 550px;
+    }
+}
+
+@media(max-width:767px) {
+    .btn-img {
+        background: url("../images/buttonbg.png") no-repeat scroll 0 0 transparent;
+        cursor: pointer;
+        height: 100px;
+        width: 300px;
+    }
+}
+
+/* port-menu.html */
+.btn-img-portmenu{
+    background: url("../images/buttonbg.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 600px;
+    width: 500px;
+}
+
+@media(max-width:1199px) {
+    .btn-img-portmenu {
+        background: url("../images/buttonbg.png") no-repeat scroll 0 0 transparent;
+        cursor: pointer;
+        height: 300px;
+        width: 550px;
+    }
+}
+
+@media(max-width:767px) {
+    .btn-img-portmenu {
+        background: url("../images/buttonbg.png") no-repeat scroll 0 0 transparent;
+        cursor: pointer;
+        height: 200px;
+        width: 300px;
+    }
+}
+
+/* about.html */
+.about-img {
+    height: 650px;
+    width: 425px;
+}
+
+@media(max-width:1199px) {
+    .about-img {
+        height: 400px;
+        width: 675px;
+    }
+}
+
+@media(max-width:767px) {
+    .about-img {
+        height: 300px;
+        width: 275px;
+    }
+}

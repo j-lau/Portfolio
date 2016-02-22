@@ -85,7 +85,7 @@ sub {
     bottom: -.25em
 }
 img {
-    border: 0
+    border: 0;
 }
 svg:not(:root) {
     overflow: hidden
@@ -1067,7 +1067,7 @@ th {
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 :after,
 :before {
@@ -1112,7 +1112,7 @@ figure {
     margin: 0
 }
 img {
-    vertical-align: middle
+    vertical-align: middle;
 }
 .carousel-inner>.item>a>img,
 .carousel-inner>.item>img,
@@ -3151,7 +3151,7 @@ fieldset[disabled] a.btn {
 .btn-default {
     color: #333;
     background-color: #fff;
-    border-color: #ccc
+    border-color: #ccc;
 }
 .btn-default.focus,
 .btn-default:focus {
